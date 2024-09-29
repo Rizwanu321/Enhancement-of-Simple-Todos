@@ -1,0 +1,98 @@
+.bgContainer {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.todosContainer {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+.heading {
+  color: #ff0b37;
+  font-size: 24px;
+  font-family: Roboto;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.list-container {
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+.text-field {
+  height: 40px;
+  border-radius: 2px;
+  border: 1px solid #d7dfe9;
+  outline: none;
+  padding-left: 15px;
+  width: 280px;
+}
+.todoInput {
+  height: 40px;
+  border-radius: 2px;
+  border: 1px solid #d7dfe9;
+  outline: none;
+  padding-left: 15px;
+  width: 40px;
+}
+.add-btn {
+  background-color: #ff0b37;
+  border-radius: 12px;
+  border: 1px solid #ff0b37;
+  color: #ffffff;
+  font-size: 12px;
+  height: 30px;
+  font-weight: bold;
+  width: 82px;
+  margin-top: 15px;
+}
+.no-todos {
+  color: #ffc2a0;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 100px;
+}
+@media screen and (min-width: 768px) {
+  .bgContainer {
+    padding: 30px 60px 30px 60px;
+  }
+  .todosContainer {
+    width: 80%;
+  }
+  .text-field {
+    width: 450px;
+    height: 40px;
+  }
+  .heading {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .input-container {
+    flex-wrap: no-wrap;
+  }
+  .list-container {
+    width: 90%;
+  }
+  .todoInput {
+    width: 50px;
+    height: 40px;
+  }
+  .add-btn {
+    margin-left: 15px;
+    height: 40px;
+    width: 120px;
+    margin-top: 0px;
+  }
+}
